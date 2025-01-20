@@ -8,6 +8,10 @@ import scipy.stats as stats
 import statsmodels.api as sm 
 import pylab as py 
 
+print("Hello World")
+print("Vinicius , Marcelo, Vitor e Ebers")
+print(" E FIIIIIII ")
+
 def readXl(xl_file):  
     # Function to read the Excel file (only the first column from row 2 to 501)
     wb = openxl.load_workbook(xl_file)
